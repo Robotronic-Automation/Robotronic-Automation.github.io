@@ -1,0 +1,182 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
+    .about-containers,
+    table {
+      flex-wrap: wrap;
+    }
+    #contact,
+    #projects {
+      height: fit-content;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    #Home {
+      display: none;
+    }
+    #hamburger-nav {
+      display: flex;   
+    }
+    #experience,
+    .experience-details-container {
+      margin-top: 2rem;
+    }
+    #profile,
+    .section-container {
+      display: block;
+    }
+     
+    .arrow {
+      display: none;
+    }
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .section__pic-container {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 2rem;
+    }
+    .about-containers {
+      margin-top: 0;
+    }
+    #Contact {
+      height: 60vh;
+      padding-top: 15px;
+      margin: 4rem;
+      /* Adjust other styles as needed */
+      position: relative;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 9999;
+    }
+  }
+
+    /* Adjust styles for small screens */
+    @media screen and (max-width: 600px) {
+      #Contact {
+        height: 50vh;
+        padding-top: 10px;
+        margin: 3rem;
+        /* Adjust other styles as needed */
+      }
+    }
+
+/*BUTTONS*/
+@media screen and (min-width: 840px) {
+  .new-bttns {
+    display: none;
+  }
+}
+@media screen and (max-width: 840px) {
+  .home-btns {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #socials-container {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 850px) {
+  /* Make the table full-width */
+  table {
+    width: 50%;
+    height: 0px;
+    padding: 0 0 50px 0; /* Increase the padding between cells */
+    background-color: transparent; /* Remove background color */
+    box-shadow: none; /* Remove the shadow */
+  }
+  table:hover {
+    box-shadow: none;
+  }
+  #Contact {
+    height:fit-content;
+  }
+
+  /* Stack table rows vertically and make them full-width */
+  table tr {
+    display:contents;
+    width: 100%;
+  }
+  .home__social-icon {
+    font-size: 4rem;
+  }
+  /* Remove hover effects */
+  table tr:hover {
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  @media screen and (max-width: 850px) {
+    #contact-links {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 840px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+}
